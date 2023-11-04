@@ -1,4 +1,4 @@
-package Estudos;
+package Matematria;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -151,7 +151,7 @@ public class Matematria {
         do {
             escolha4 = scanner.nextInt();
             if (escolha4 < 1 || escolha4 > 3) {
-                System.out.println("Voz de Matematria: Porfavor fale novamente e com mais calma aora.");
+                System.out.println("Voz de Matematria: Porfavor fale novamente e com mais calma agora.");
             }
         } while (escolha4 < 1 || escolha4 > 3);
         if (escolha4 >= 1 || escolha4 <= 3) {
@@ -191,6 +191,38 @@ public class Matematria {
 
         // Adicione mais descrições e diálogos para o Capítulo 1 aqui
         System.out.println("Capítulo 2: Aliados Inesperados");
+        System.out.println("Muito bem, você chegou ao Capítulo 2, esteja preparado!");
+        System.out.println("");
+        System.out.println("Neste capítulo, você continua a enfrentar desafios matemáticos em Matematria, incluindo um quebra-cabeça de geometria tridimensional");
+        System.out.println("Voce está pronto?");
+        System.out.println("1-Sim.");
+        System.out.println("2- Não");
+        int opcao1 = scanner.nextInt(); 
+         if (opcao1 == 1){
+               System.out.println("Execelente, bora lá!!");
+         } else if (opcao1 == 2) {
+             System.out.println("Não tem mais volta. Siga em frente HAHAHA");
+         } 
+         System.out.println("Depois de enfrentar um desafio extenso resolvendo a proposta da equação, é hora de relaxar"); 
+         System.out.println("siga em frente e logo encontrarar uma caverna para que possa descansar");
+         System.out.println(" mas sempre mantendo um olhar retrospectivo, pois não há risco de enfrentar uma tentativa de sequestro. tem muitos marcianos aqui");
+         System.out.println();
+         System.out.println("Acho que já chegamos à caverna, está na hora de descansar " + nomePersonagem);
+         System.out.println("BOOOOM!");
+         System.out.println( "Que barulho foi esse? Acho que algo caiu ou foi derrubado");
+         System.out.println("Socorro, socorro!");
+         System.out.println("quem poderia estar pedindo ajuda nessas situações, deixa eu dar uma olhada");
+         System.out.println("Quem são essas espécies? O que está fazendo aqui? E que barulho foi esse?");
+         System.out.println("Você deve ser o novo integrante da Matematria. Somos os Matiarcs, uma civilização antiga que vive aqui nas profundezas da caverna.");
+         System.out.println("Precisamos desesperadamente sair deste lugar, mas para isso, é necessário resolver um jogo extremamente complexo. Será que você pode nos ajudar?");
+          // inserir o desafrio
+          
+
+
+
+        
+
+
         // Adicione descrições e diálogos para o Capítulo 2 aqui
 
         System.out.println("Capítulo 3: A Busca pela Verdade");
