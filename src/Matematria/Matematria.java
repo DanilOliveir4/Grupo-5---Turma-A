@@ -167,7 +167,11 @@ public class Matematria {
         do {
             escolha4 = scanner.nextInt();
             if (escolha4 < 1 || escolha4 > 3) {
+<<<<<<< HEAD
                 System.out.println("Voz de Matematria: Por favor fale novamente e com mais calma agora.");
+=======
+                System.out.println("Voz de Matematria: Porfavor fale novamente e com mais calma agora.");
+>>>>>>> 22ee9d8bf69ce7fd4ce14874008aa1d99b323804
             }
         } while (escolha4 < 1 || escolha4 > 3);
         if (escolha4 >= 1 || escolha4 <= 3) {
@@ -209,10 +213,57 @@ public class Matematria {
         System.out.println("sua atitude parecendo misturar curiosidade e respeito. Você percebe que precisará usar toda a sua inteligência e coragem para desvendar os");
         System.out.println("segredos deste planeta alienígena e encontrar uma maneira de voltar para casa. A jornada está apenas começando, e o enigma de Matematria está esperando para ser desvendado.");
 
+<<<<<<< HEAD
     }
 
     public static void capitulo2() {
         System.out.println("**-** Capítulo 2: Aliados Inesperados **-**");
+=======
+        // Adicione mais descrições e diálogos para o Capítulo 1 aqui
+        System.out.println("Capítulo 2: Aliados Inesperados");
+        System.out.println("Voz de Matematria: Muito bem, você chegou ao Capítulo 2, esteja preparado!");
+        System.out.println("");
+        System.out.println("Neste capítulo, você continua a enfrentar desafios matemáticos em Matematria, incluindo um desafio de resolução de equações de segundo grau.");
+        System.out.println("Voce está preparado?");
+        System.out.println("1-Sim.");
+        System.out.println("2- Não");
+        int opcao1;
+         do {
+            opcao1 = scanner.nextInt();
+            if (opcao1 == 1) {
+                System.out.println("Execelente, bora lá!!");
+            }
+              
+         } while (opcao1 < 1 || opcao1 > 3);
+          if (opcao1 == 2) {
+             System.out.println("Não tem mais volta. Siga em frente HAHAHA");
+         } 
+         System.out.println("Enquanto você avança em Matematria, cada cápsula que enfrenta apresenta novos desafios matemáticos."); 
+         System.out.println("Siga em frente e logo encontrarar uma caverna para que possa descansar");
+         System.out.println(" O planeta é repleto de surpresas, e você começa a entender que resolver enigmas é a única maneira de ganhar o respeito dos Matiarcs e encontrar uma saída.");
+         System.out.println();
+         System.out.println( " BARAULHO DE CHUVA: shuaaaa shuaaaaa shuaaaa ");
+         System.out.println("É melhor você se apressar para evitar ser atingido por essa tempestade cortante de números. ");
+         System.out.println("Voz de Matematria: Você chegou na caverna, pode descansar");
+         System.out.println("BOOOOM!");
+         System.out.println( "Fique parado ai mesmo" + nomePersonagem);
+         System.out.println("Estas são as cápsulas mágicas, não deixe de abri-las.");
+         System.out.println("Em uma das cápsulas, você se depara com um desafio de resolução de equações de segundo grau.");
+         System.out.println("os coeficientes e constantes se misturam no ar, e você precisa encontrar as raízes corretas para resolver a proposta.");
+         System.out.println("com dedicação e lógica, você domina o desafio e segue em frente.");
+         System.out.println("Mão há necessidade de ficar ansioso para resolver essa equação, mas lembre-se de que Matematria depende de você.");
+         System.out.println("vamos la" + nomePersonagem + "voce já se lembra de como resolver equaçoes de 2 grau né? é preciso de muito foco");
+         System.out.println("chegou sua hora, agora dependem de você, abra a cápsula e resolva a conta ");
+         System.out.println("Fiiiiiiinnnnnuuum: Som de cápsula se abrindo");
+         System.out.println(nomePersonagem + "Resolva a seguinte equação: 2x ^ 2 - 5x + 3 = 0");
+          // inserir o desafrio
+          
+
+
+
+        
+
+>>>>>>> 22ee9d8bf69ce7fd4ce14874008aa1d99b323804
 
         // Adicione descrições e diálogos para o Capítulo 2 aqui
     }
