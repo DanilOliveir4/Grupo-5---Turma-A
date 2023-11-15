@@ -167,11 +167,11 @@ public class Matematria {
         do {
             escolha4 = scanner.nextInt();
             if (escolha4 < 1 || escolha4 > 3) {
-<<<<<<< HEAD
+
                 System.out.println("Voz de Matematria: Por favor fale novamente e com mais calma agora.");
-=======
+
                 System.out.println("Voz de Matematria: Porfavor fale novamente e com mais calma agora.");
->>>>>>> 22ee9d8bf69ce7fd4ce14874008aa1d99b323804
+
             }
         } while (escolha4 < 1 || escolha4 > 3);
         if (escolha4 >= 1 || escolha4 <= 3) {
@@ -213,12 +213,11 @@ public class Matematria {
         System.out.println("sua atitude parecendo misturar curiosidade e respeito. Você percebe que precisará usar toda a sua inteligência e coragem para desvendar os");
         System.out.println("segredos deste planeta alienígena e encontrar uma maneira de voltar para casa. A jornada está apenas começando, e o enigma de Matematria está esperando para ser desvendado.");
 
-<<<<<<< HEAD
     }
 
     public static void capitulo2() {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("**-** Capítulo 2: Aliados Inesperados **-**");
-=======
         // Adicione mais descrições e diálogos para o Capítulo 1 aqui
         System.out.println("Capítulo 2: Aliados Inesperados");
         System.out.println("Voz de Matematria: Muito bem, você chegou ao Capítulo 2, esteja preparado!");
@@ -291,7 +290,7 @@ public class Matematria {
             }
         
          } while (opcao4 < 1 || opcao4 > 2);
-          if ( escolha4 >= 1 || escolha4 <= 2) {
+          if (  opcao4 >= 1 ||  opcao4 <= 2) {
              System.out.println("Martiarcs: Maravilha, ficaremos felizes de ter um forte guerreiro como você ao nosso lado!");
          } 
          System.out.println("Muito bem " + nomePersonagem + " agora você não está mais sozinho");
@@ -334,16 +333,10 @@ public class Matematria {
         System.out.println("Fico contente por ter vocês ao meu lado. Se não fosse por vocês, ainda estaria preso. agradeço imensamente!");
         System.out.println("Martiarc: Estamos juntos agora, um pelo outro ate o fim!");
         System.out.println("Voz de Matemátria: muito bem " + nomePersonagem + "Com muita lutas e esforço, você conseguiu completetar todos os desafios");
-        System.out.println("mas ainda não terminou, grandes aventuras de esperam e que você possa completar todos e sair vivo desse planeta!");
+        System.out.println("mas ainda não terminou, grandes aventuras te esperam e que você possa completar todos e sair vivo desse planeta!");
     
           // inserir o desafrio
           
-
-
-
-        
-
->>>>>>> 22ee9d8bf69ce7fd4ce14874008aa1d99b323804
 
         // Adicione descrições e diálogos para o Capítulo 2 aqui
     }
