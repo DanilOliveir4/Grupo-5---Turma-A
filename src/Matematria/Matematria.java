@@ -64,6 +64,47 @@ public class Matematria {
 
     public static void gameOver() {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("""
+                            ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ##################@@@@@@@@@@@@@@@@@@@@######@@@@@@@@@@@@######@@@@@@@@####@@@@@@@@##@@@@@@@@@@@@@@@@@@@@@@##############
+                           ################@@@@                @@##@@@@@@        @@@@@@##@@    @@@@@@@@mm  @@##@@@@                @@##############
+                           ################@@  mmmmmmmmmmmmmmmm@@##@@    mmmmmmmm    @@##@@      @@@@      @@##@@@@  mmmmmmmmmmmmmm@@##############
+                           ################@@  @@@@@@@@@@@@@@@@@@##@@    @@@@@@@@    @@##@@      @@@@      @@##@@@@  @@############################
+                           ################@@  @@####@@        @@##@@                @@##@@    @@    @@mm  @@##@@@@  @@@@@@@@@@@@@@@@##############
+                           ################@@  @@####@@        @@##@@                @@##@@    @@    @@mm  @@##@@@@                @@##############
+                           ################@@  @@####@@@@@@    @@##@@    @@@@@@@@    @@##@@    @@@@@@@@mm  @@##@@@@  @@@@@@@@@@@@@@@@##############
+                           ################@@  @@########@@    @@##@@    @@####@@    @@##@@    @@####@@mm  @@##@@@@  @@############################
+                           ################@@  @@@@@@@@@@@@    @@##@@    @@####@@    @@##@@    @@####@@mm  @@##@@@@  @@@@@@@@@@@@@@@@##############
+                           ################@@@@            @@@@@@##@@    @@####@@    @@##@@    @@####@@mm  @@##@@@@                @@##############
+                           ##################@@@@@@@@@@@@@@@@######@@@@@@@@####@@@@@@@@##@@@@@@@@####@@@@@@@@##@@@@@@@@@@@@@@@@@@@@@@##############
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ##################@@@@@@@@@@@@@@@@######@@@@@@@@####@@@@@@@@##@@@@@@@@@@@@@@@@@@@@##@@@@@@@@@@@@@@@@@@##################
+                           ################@@@@            @@@@@@##@@    @@####@@    @@##@@                @@##@@              @@@@@@##############
+                           ################MM  @@@@@@@@@@@@    @@##@@    @@####@@    @@##@@    @@@@@@@@@@@@@@##@@    @@@@@@@@@@    @@##############
+                           ################MM  @@########@@    @@##@@    @@####@@    @@##@@    @@@@@@##########@@    @@@@@@@@@@    @@##############
+                           ################MM  @@########@@    @@##@@    @@@@@@@@    @@##@@        @@##########@@              @@@@@@##############
+                           ################MM  @@########@@    @@##@@@@@@  @@@@  @@@@@@##@@    ++++@@##########@@    ++++++  ++@@##################
+                           ################MM  @@########@@    @@######@@  @@@@  @@######@@    @@##############@@    @@##@@  @@@@@@################
+                           ################MM  @@########@@    @@######@@@@    @@@@######@@    @@##############@@    @@##@@@@    @@################
+                           ################MM  @@@@@@@@@@@@    @@########@@    @@########@@    @@@@@@@@@@@@@@##@@    @@####@@    @@@@##############
+                           ################@@@@            @@@@@@########@@    @@########@@                @@##@@    @@####@@@@@@  @@##############
+                           ##################@@@@@@@@@@@@@@@@############@@@@@@@@########@@@@@@@@@@@@@@@@@@@@##@@@@@@@@########@@@@@@##############
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################
+                           ########################################################################################################################""");
+        System.out.println("");
         System.out.println("Game Over. Você falhou no desafio.");
         System.out.println("Opções:");
         System.out.println("1. Voltar ao menu principal");
@@ -73,11 +114,11 @@ public class Matematria {
         int escolhaGameOver = scanner.nextInt();
 
         if (escolhaGameOver == 1) {
-            
-            mainMenu(); 
+
+            mainMenu();
         } else if (escolhaGameOver == 2) {
-            
-            iniciaJogo(); 
+
+            iniciaJogo();
         } else {
             System.out.println("Opção inválida. Por favor, escolha uma opção válida.");
         }
@@ -167,11 +208,9 @@ public class Matematria {
         do {
             escolha4 = scanner.nextInt();
             if (escolha4 < 1 || escolha4 > 3) {
-<<<<<<< HEAD
+
                 System.out.println("Voz de Matematria: Por favor fale novamente e com mais calma agora.");
-=======
-                System.out.println("Voz de Matematria: Porfavor fale novamente e com mais calma agora.");
->>>>>>> 22ee9d8bf69ce7fd4ce14874008aa1d99b323804
+
             }
         } while (escolha4 < 1 || escolha4 > 3);
         if (escolha4 >= 1 || escolha4 <= 3) {
@@ -206,66 +245,138 @@ public class Matematria {
         } else if (resposta1 == 3 && resposta2 == -7) {
             System.out.println("Com um gesto rápido, você resolve o problema matemático. As paredes se afastam, e você está livre da primeira cápsula.");
         } else {
-            gameOver(); 
-            return;  
+            gameOver();
+            return;
         }
         System.out.println("Respirando fundo, você percebe que esta é apenas a primeira de muitas provações que o esperam em Matematria. Os Matiarcs o observam,");
         System.out.println("sua atitude parecendo misturar curiosidade e respeito. Você percebe que precisará usar toda a sua inteligência e coragem para desvendar os");
         System.out.println("segredos deste planeta alienígena e encontrar uma maneira de voltar para casa. A jornada está apenas começando, e o enigma de Matematria está esperando para ser desvendado.");
 
-<<<<<<< HEAD
     }
 
     public static void capitulo2() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("");
         System.out.println("**-** Capítulo 2: Aliados Inesperados **-**");
-=======
-        // Adicione mais descrições e diálogos para o Capítulo 1 aqui
-        System.out.println("Capítulo 2: Aliados Inesperados");
+
         System.out.println("Voz de Matematria: Muito bem, você chegou ao Capítulo 2, esteja preparado!");
         System.out.println("");
         System.out.println("Neste capítulo, você continua a enfrentar desafios matemáticos em Matematria, incluindo um desafio de resolução de equações de segundo grau.");
         System.out.println("Voce está preparado?");
-        System.out.println("1-Sim.");
+        System.out.println("1- Sim.");
         System.out.println("2- Não");
         int opcao1;
-         do {
+        do {
             opcao1 = scanner.nextInt();
-            if (opcao1 == 1) {
-                System.out.println("Execelente, bora lá!!");
+
+            if (opcao1 < 1 || opcao1 > 2) {
+                System.out.println("Voz de Matematria: Porfavor fale novamente e com mais calma agora.");
             }
-              
-         } while (opcao1 < 1 || opcao1 > 3);
-          if (opcao1 == 2) {
-             System.out.println("Não tem mais volta. Siga em frente HAHAHA");
-         } 
-         System.out.println("Enquanto você avança em Matematria, cada cápsula que enfrenta apresenta novos desafios matemáticos."); 
-         System.out.println("Siga em frente e logo encontrarar uma caverna para que possa descansar");
-         System.out.println(" O planeta é repleto de surpresas, e você começa a entender que resolver enigmas é a única maneira de ganhar o respeito dos Matiarcs e encontrar uma saída.");
-         System.out.println();
-         System.out.println( " BARAULHO DE CHUVA: shuaaaa shuaaaaa shuaaaa ");
-         System.out.println("É melhor você se apressar para evitar ser atingido por essa tempestade cortante de números. ");
-         System.out.println("Voz de Matematria: Você chegou na caverna, pode descansar");
-         System.out.println("BOOOOM!");
-         System.out.println( "Fique parado ai mesmo" + nomePersonagem);
-         System.out.println("Estas são as cápsulas mágicas, não deixe de abri-las.");
-         System.out.println("Em uma das cápsulas, você se depara com um desafio de resolução de equações de segundo grau.");
-         System.out.println("os coeficientes e constantes se misturam no ar, e você precisa encontrar as raízes corretas para resolver a proposta.");
-         System.out.println("com dedicação e lógica, você domina o desafio e segue em frente.");
-         System.out.println("Mão há necessidade de ficar ansioso para resolver essa equação, mas lembre-se de que Matematria depende de você.");
-         System.out.println("vamos la" + nomePersonagem + "voce já se lembra de como resolver equaçoes de 2 grau né? é preciso de muito foco");
-         System.out.println("chegou sua hora, agora dependem de você, abra a cápsula e resolva a conta ");
-         System.out.println("Fiiiiiiinnnnnuuum: Som de cápsula se abrindo");
-         System.out.println(nomePersonagem + "Resolva a seguinte equação: 2x ^ 2 - 5x + 3 = 0");
-          // inserir o desafrio
-          
 
+        } while (opcao1 < 1 || opcao1 > 2);
+        {
+            System.out.println("avante");
+        }
+        if (opcao1 == 1 || opcao1 == 2) {
+            System.out.println("Não tem mais volta. Siga em frente HAHAHA");
+        }
+        System.out.println("Enquanto você avança em Matematria, cada cápsula que enfrenta apresenta novos desafios matemáticos.");
+        System.out.println("Siga em frente e logo encontrarar uma caverna para que possa descansar");
+        System.out.println(" O planeta é repleto de surpresas, e você começa a entender que resolver enigmas é a única maneira de ganhar o respeito dos Matiarcs e encontrar uma saída.");
+        System.out.println();
+        System.out.println(" BARAULHO DE CHUVA: shuaaaa shuaaaaa shuaaaa ");
+        System.out.println("É melhor você se apressar para evitar ser atingido ");
+        System.out.println("Voz de Matematria: Você chegou na caverna, pode descansar");
+        System.out.println("BOOOOM!");
+        System.out.println("Fique parado ai mesmo" + nomePersonagem);
+        System.out.println("Estas são as cápsulas mágicas, não deixe de abri-las.");
+        System.out.println("Em uma das cápsulas, você se depara com um desafio de resolução de equações de segundo grau.");
+        System.out.println("As formas flutuam no ar, e você precisa calcular ângulos e proporções para encaixá-las corretamente.");
+        System.out.println("com dedicação e lógica, você domina o desafio e segue em frente.");
+        System.out.println("Mão há necessidade de ficar ansioso para resolver essa equação, mas lembre-se de que Matemátria depende de você.");
+        System.out.println("vamos la" + nomePersonagem + "voce já se lembra de como resolver equações de 2 grau né? é preciso de muito foco!");
+        System.out.println("chegou sua hora, agora dependem de você, abra a cápsula e resolva a conta ");
+        System.out.println("Fiiiiiiinnnnnuuum: Som de cápsula se abrindo");
+        System.out.println(nomePersonagem + ", Resolva a seguinte equação: -x² -4x +5 = 0");
+        System.out.println("Digite a sua resposta: ");
+        double opcao2;
+        double opcao3;
+        System.out.print("x' = ");
+        opcao2 = scanner.nextDouble();
+        System.out.print("x'' = ");
+        opcao3 = scanner.nextDouble();
+        if ((opcao2 == -5 && opcao3 == 1) || (opcao2 == 1 && opcao3 == -5)) {
+            System.out.println(" Muito bem. Com um movimento ágil, você soluciona o problema matemático contido na cápsula e resolve o quebra-cabeça.");
+        } else {
+            gameOver();
+            return;
+        }
+        System.out.println("Perceba, não foi tão complicado quanto parecia alcançar isso. parabens!");
+        System.out.println("Conforme você avança, você faz uma descoberta notável. ");
+        System.out.println("Alguns Matiarcs parecem mais amigáveis e dispostos a ajudar do que outros");
+        System.out.println("Você vai cria laços com um grupo deles que demonstra interesse genuíno em ajudá-lo a compreender o planeta e sua cultura");
+        System.out.println("Eles trocam informações sobre os obstáculos matemáticos que você precisa e fornece conselhos preciosos.");
+        System.out.println("Voz de matematria: Use com sabedoria essas informações! ");
+        System.out.println("Bom, chega de esperar, está na hora de conhecer os martiarcs");
+        System.out.println("Martiarcs: Saudações,habitante da Terra! Estamos muito satisfeitos por fazer a sua acolhida e estamos ansiosos para contar com a sua participação em novos desafios que estão por vir.");
+        System.out.println("");
+        System.out.println("Martiarcs: " + nomePersonagem + " Podemos contaar com você?");
+        System.out.println("1- Sim.");
+        System.out.println("2- Claro");
+        int opcao4;
+        do {
+            opcao4 = scanner.nextInt();
 
+            if (opcao4 < 1 || opcao4 > 2) {
+                System.out.println("Voz de Matematria: Porfavor fale novamente e com mais calma agora.");
+            }
 
-        
+        } while (opcao4 < 1 || opcao4 > 2);
+        if (opcao4 == 1 || opcao4 == 2) {
+            System.out.println("Martiarcs: Maravilha, ficaremos felizes de ter um forte guerreiro como você ao nosso lado!");
+        }
+        System.out.println("Muito bem " + nomePersonagem + " agora você não está mais sozinho");
+        System.out.println(" Com a ajuda de seus novos aliados,os Matiarcs, você inicia uma jornada para desvendar a linguagem e os diferentes símbolos da Matematria.");
+        System.out.println(" Essa compreensão mais profunda revela informações sobre a história do planeta e uma conspiração que ameaça tanto Matematria quanto a Terra.");
+        System.out.println("----------- ---------------- ----------");
+        System.out.println("A Conspiração do Tetraedron Matemático:");
+        System.out.println("Dentro de Matematria, há um artefato matemático conhecido como o \"Tetraedron Matemático\".");
+        System.out.println("Este tetraedro possui propriedades geométricas únicas que permitem a manipulação de equações de segundo grau em um nível cósmico");
+        System.out.println("Com o Tetraedron Matemático, alguém poderia controlar não apenas a matemática em Matematria, mas também em outros planetas, dominando os princípios matemáticos subjacentes ao universo.");
+        System.out.println("Uma conspiração começa quando um grupo dissidente dos Matiarcs, conhecidos como os \"Revolucionários das Equações\", descobre a existência do Tetraedron Matemático.");
+        System.out.println("Eles desejam usar esse dispositivo para conquistar Matematria e, em seguida, expandir seu domínio para outros planetas através da manipulação das equações de segundo grau que governam a realidade.");
+        System.out.println("");
 
->>>>>>> 22ee9d8bf69ce7fd4ce14874008aa1d99b323804
+        System.out.println("Maravilha, é notavel o seu desempenho para poder ajudar tudo e todos");
+        System.out.println("espero que já tenha percebido que a sua jornada é mais do que apenas sobreviver");
+        System.out.println("você se tornou a esperança de Matematria e da Terra. Com coragem renovada e aliados ao seu lado");
+        System.out.println("você enfrenta cada novo desafio matemático com determinação, determinado a descobrir a verdade e encontrar um caminho de volta para casa.");
+        System.out.println("");
+        System.out.println("Vento forte com tornados que arrastou " + nomePersonagem + "para um topo da montanha");
+        System.out.println("Voz de matematria: Olha só. o vento passou e acabou joganado para dentro de uma sala fechada não é facil sair de lá sem a chave necessária");
+        System.out.println("sorte que no meio do caminho você fez aliados, e os martiarc irão levar para você a chave necessária para abrir a porta");
+        System.out.println("Mas antes disso, é necessario resolver um novo desafio: ");
+        System.out.println("Determine o conjunto solução da equação ( x^2 - 4x - 96 = 0)");
+        System.out.println("Digite a sua resposta: ");
+        double opcao5;
+        double opcao6;
+        System.out.print("x' = ");
+        opcao5 = scanner.nextDouble();
+        System.out.print("x'' = ");
+        opcao6 = scanner.nextDouble();
 
-        // Adicione descrições e diálogos para o Capítulo 2 aqui
+        if ((opcao5 == 12 && opcao6 == -8) || (opcao5 == -8 && opcao6 == 12)) {
+            System.out.println(" Os Martiarcs conseguiram resolver e desbloquearam a chave necessária para a sua libertação.");
+        } else {
+            gameOver();
+            return;
+        }
+
+        System.out.println("Fico contente por ter vocês ao meu lado. Se não fosse por vocês, ainda estaria preso. agradeço imensamente!");
+        System.out.println("Martiarc: Estamos juntos agora, um pelo outro ate o fim!");
+        System.out.println("Voz de Matemátria: muito bem " + nomePersonagem + "Com muita lutas e esforço, você conseguiu completetar todos os desafios");
+        System.out.println("mas ainda não terminou, grandes aventuras te esperam e que você possa completar todos e sair vivo desse planeta!");
+
     }
 
     public static void capitulo3() {
@@ -291,6 +402,7 @@ public class Matematria {
         do {
             eventoAleatorioEscolhido3 = eventosAleatorios.get(random.nextInt(eventosAleatorios.size()));
         } while (eventoAleatorioEscolhido3.equals(eventoAleatorioEscolhido1) || eventoAleatorioEscolhido3.equals(eventoAleatorioEscolhido2));
+        System.out.println("");
         System.out.println("**-** Capítulo 3: A Busca pela Verdade **-**");
         System.out.println("À medida que você e seus aliados Matiarcs continuam a decifrar os segredos de Matematria, vocês começam a perceber que a conspiração que ameaça tanto Matematria");
         System.out.println("quanto a Terra é mais complexa do que imaginavam. Pistas levam vocês a explorar áreas ainda mais desafiadoras do planeta, cada uma delas cheia de enigmas matemáticos");
@@ -463,9 +575,295 @@ public class Matematria {
 
     public static void capitulo4() {
         Scanner scanner = new Scanner(System.in);
+        ArrayList<String> eventosAleatorios = new ArrayList<>();
+        eventosAleatorios.add("x2 - 5x - 14 = 0");
+        eventosAleatorios.add("x^2 - 12x + 20 = 0");
+        eventosAleatorios.add("x^2 + 9x + 20 = 0");
+        eventosAleatorios.add("-x^2 + 3x = 0");
+        eventosAleatorios.add("x^2 - 3x = 2x");
+
+        Random random = new Random();
+
+        String eventoAleatorioEscolhido1 = eventosAleatorios.get(random.nextInt(eventosAleatorios.size()));
+
+        String eventoAleatorioEscolhido2;
+        do {
+            eventoAleatorioEscolhido2 = eventosAleatorios.get(random.nextInt(eventosAleatorios.size()));
+        } while (eventoAleatorioEscolhido2.equals(eventoAleatorioEscolhido1));
+
+        String eventoAleatorioEscolhido3;
+        do {
+            eventoAleatorioEscolhido3 = eventosAleatorios.get(random.nextInt(eventosAleatorios.size()));
+        } while (eventoAleatorioEscolhido3.equals(eventoAleatorioEscolhido1) || eventoAleatorioEscolhido3.equals(eventoAleatorioEscolhido2));
+        System.out.println("");
         System.out.println("Capítulo 4: A Batalha pela Verdade");
         // Adicione descrições e diálogos para o Capítulo 4 aqui
-
+        System.out.println("No Refúgio da Sabedoria, o epicentro do conhecimento matemático de Matematria, você e seus aliados Matiarcs enfrentam a conspiração");
+        System.out.println("que ameaça tanto Matematria quanto a Terra. No entanto, o confronto final está longe de ser uma tarefa simples, pois os inimigos que guardam");
+        System.out.println("os segredos do Refúgio estão preparados para tudo.");
+        System.out.println("Matiarcs: Certo chegamos ao que achamos ser a batalha derradeira, muito provavelmente por de tras dessa porta está o nosso objetivo final");
+        System.out.println("Matiarcs: o que faremos " + nomePersonagem + "?");
+        System.out.println("1 - " + nomePersonagem + ": acho que um carteado cairia bem neste momento");
+        System.out.println("2 - " + nomePersonagem + ": sinceramente gostaria de nao ter que ficar com essa escolha D:");
+        System.out.println("3 - " + nomePersonagem + ": o que estamos esperando? vamos entrar e dar uma surra de lógica neles!");
+        int escolha1;
+        do {
+            escolha1 = scanner.nextInt();
+            if (escolha1 < 1 || escolha1 > 3) {
+                System.out.println("Matiarcs: Como assim? não entendi. ");
+            }
+        } while (escolha1 < 1 || escolha1 > 3);
+        if (escolha1 == 1) {
+            System.out.println("Matiarcs: Sempre com piadinhas. Infezlimente não temos tempo pra isso mas eu tambem adoraria gritar um troco nessa sua orelha estranha de terraqueo.");
+        } else if (escolha1 == 2) {
+            System.out.println("Matiarcs: tá ai algo em que concordamos deixar nossas vidas em suas mãos nao é nada reconfortante");
+        } else if (escolha1 == 3) {
+            System.out.println("Matiarcs: Gosto quando demonstra confiança.");
+        }
+        System.out.println("Matiarcs: " + nomePersonagem + " prepare - se estamos indo de encontro com a batalha final");
+        System.out.println("Após adentrar a porta vocês se deparam com uma sala impressionante do Refúgio da Sabedoria, e nao demorou nem um segundo para que a verdadeira raiz dos problemas");
+        System.out.println("de Matematria e da Terra desse as caras, e para seu espanto eles se pareciam com seus novos aliados os Matiarcs!");
+        System.out.println("A partir de agora nao tem mais volta é vencer ou vencer,vocês confrontam os responsáveis pela conspiração.");
+        System.out.println("Eles se revelam como uma facção dissidente dos Matiarcs, que desejam usar seu conhecimento matemático avançado para dominar outros planetas, incluindo a Terra.");
+        System.out.println("Matiarcs: Não estou entendendo o que está acontecendo aqui, voces VOCES sao nossos iguais porque tentar destruir sua própria terra?");
+        System.out.println("Dissindentes: Cansamos de nos limitar, temos o conhecimento ou seja temos o poder para governar e viver em outros lugares alem de Matematria, queremos mais sempre mais HAHAHA");
+        System.out.println("1 - " + nomePersonagem + ": Casos de familia ao vivo KSKS, sinto muito de atrapalhar esse reencontro mas preciso eu vou salvar minha terra natal, se necessário");
+        System.out.println("passerei por cima de voces sem remorso algum.");
+        System.out.println("2 - " + nomePersonagem + ": Tudo bem chega de papinho, dissindentes tenho uma proposta para voces, que tal desistirem agora e ai eu nao acabo com a raça de voces.");
+        int escolha2;
+        do {
+            escolha2 = scanner.nextInt();
+            if (escolha2 < 1 || escolha2 > 2) {
+                System.out.println("Só um minuto. estou pensando o que falar.");
+            }
+        } while (escolha2 < 1 || escolha2 > 2);
+        if (escolha2 == 1 || escolha2 == 2) {
+            System.out.println("Matiarcs: Você tem razão " + nomePersonagem + " se rendam ou faremos se renderem!");
+        }
+        System.out.println("Dissindentes: Então tentem nos parar!");
+        System.out.println("Após essa fala um dos inimigos dissindentes apertou um piso ao seu lado, a sala se dividiu em duas, você e seu grupo se veem novamente e uma Capsula da matemática");
+        System.out.println("Números e letras flutuam sob suas cabeças a sala nao parece ter um fundo, é totalmente branca dando um impressão de estar preso no infinito, depois de analisa-la");
+        System.out.println("uma voz ressoa: voces vão nos parar certo? entâo veremos quem de nós chegará primeiro ao Tetraedon.");
+        System.out.println("Uma onda de adrenalina te percorre, parando um pouco para pensar você deduz que o Tetraedon deve estar em alguma Capsula tambem, e no fundo aquela sensação");
+        System.out.println("de que sua intuição está certa o anima,porque de acordo com o racicionio só precisamos fugir dessa sala para chegarmos a sala do Tetraedon.");
+        System.out.println("O tempo nunca esteve ao seu favor e não será diferente agora, com agilidade de pensamento e um raciocinio rápido você percebe que os números e letras que estão flutando");
+        System.out.println("formam uma equação de segundo grau, uma não DUAS! seus aliados Matiarcs o auxiliam na formação dessas equações, mais fácil do que o imaginado a primeira equação está");
+        System.out.println("montada sendo ela a seguinte " + eventoAleatorioEscolhido1 + " nao tendo tempo a perder você parte para a resolução enquanto os Matiarcs formam a próxima equação");
+        System.out.print("x' = ");
+        double resposta5 = scanner.nextDouble();
+        System.out.print("x'' = ");
+        double resposta6 = scanner.nextDouble();
+        switch (eventoAleatorioEscolhido1) {
+            case "x2 - 5x - 14 = 0":
+                double solucao1Evento1 = -2;
+                double solucao2Evento1 = 7;
+                if ((resposta5 == solucao1Evento1 && resposta6 == solucao2Evento1) || (resposta5 == solucao2Evento1 && resposta6 == solucao1Evento1)) {
+                    System.out.println("Okay okay deu certo vamos para a próxima.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 - 12x + 20 = 0":
+                double solucao1Evento2 = 10;
+                double solucao2Evento2 = 2;
+                if ((resposta5 == solucao1Evento2 && resposta6 == solucao2Evento2) || (resposta5 == solucao2Evento2 && resposta6 == solucao1Evento2)) {
+                    System.out.println("Okay okay deu certo vamos para a próxima.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 + 9x + 20 = 0":
+                double solucao1Evento3 = -5;
+                double solucao2Evento3 = -4;
+                if ((resposta5 == solucao1Evento3 && resposta6 == solucao2Evento3) || (resposta5 == solucao2Evento3 && resposta6 == solucao1Evento3)) {
+                    System.out.println("Okay okay deu certo vamos para a próxima.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "-x^2 + 3x = 0":
+                double solucao1Evento4 = 3;
+                double solucao2Evento4 = 0;
+                if ((resposta5 == solucao1Evento4 && resposta6 == solucao2Evento4) || (resposta5 == solucao2Evento4 && resposta6 == solucao1Evento4)) {
+                    System.out.println("Okay okay deu certo vamos para a próxima.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 - 3x = 2x":
+                double solucao1Evento5 = 5;
+                double solucao2Evento5 = 0;
+                if ((resposta5 == solucao1Evento5 && resposta6 == solucao2Evento5) || (resposta5 == solucao2Evento5 && resposta6 == solucao1Evento5)) {
+                    System.out.println("Okay okay deu certo vamos para a próxima.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+        }
+        System.out.println("Você resolve o primeiro desafio, mas o tempo é escasso. Não sabemos quão rápido o grupo de dissidentes resolveu a cápsula deles, e o nervosismo e a ansiedade");
+        System.out.println("começam a transparecer. Quando os pensamentos ruins começam a dominá-lo, um grito ao fundo o tira do fundo do poço que estava prestes a entrar: 'CONSEGUIMOS MONTAR A SEGUNDA!'");
+        System.out.println("Assim que a ficha cai, você corre até o local onde eles decifraram a segunda equação. A cada passo dado, você se sente mais exausto. Incrível como a sala transparece essa sensação de");
+        System.out.println("realmente estar dentro de um infinito, como se tivesse consequências em tudo ao redor. Mesmo correndo em direção à equação, parece que não sai do lugar, como se estivesse preso em um loop temporal.");
+        System.out.println("Quase sem energia, você consegue chegar perto o suficiente para enxergar a equação, e começa a resolver a seguinte equação " + eventoAleatorioEscolhido2 + ". Desenha com os dedos nesse");
+        System.out.println("possível infinito chamado de Cápsula da Matemática.");
+        System.out.print("x' = ");
+        double resposta1 = scanner.nextDouble();
+        System.out.print("x'' = ");
+        double resposta2 = scanner.nextDouble();
+        switch (eventoAleatorioEscolhido2) {
+            case "x2 - 5x - 14 = 0":
+                double solucao1Evento1 = -2;
+                double solucao2Evento1 = 7;
+                if ((resposta1 == solucao1Evento1 && resposta2 == solucao2Evento1) || (resposta1 == solucao2Evento1 && resposta2 == solucao1Evento1)) {
+                    System.out.println("Conseguimos!");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 - 12x + 20 = 0":
+                double solucao1Evento2 = 10;
+                double solucao2Evento2 = 2;
+                if ((resposta1 == solucao1Evento2 && resposta2 == solucao2Evento2) || (resposta1 == solucao2Evento2 && resposta2 == solucao1Evento2)) {
+                    System.out.println("Conseguimos!");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 + 9x + 20 = 0":
+                double solucao1Evento3 = -5;
+                double solucao2Evento3 = -4;
+                if ((resposta1 == solucao1Evento3 && resposta2 == solucao2Evento3) || (resposta1 == solucao2Evento3 && resposta2 == solucao1Evento3)) {
+                    System.out.println("Conseguimos!");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "-x^2 + 3x = 0":
+                double solucao1Evento4 = 3;
+                double solucao2Evento4 = 0;
+                if ((resposta1 == solucao1Evento4 && resposta2 == solucao2Evento4) || (resposta1 == solucao2Evento4 && resposta2 == solucao1Evento4)) {
+                    System.out.println("Conseguimos!");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 - 3x = 2x":
+                double solucao1Evento5 = 5;
+                double solucao2Evento5 = 0;
+                if ((resposta1 == solucao1Evento5 && resposta2 == solucao2Evento5) || (resposta1 == solucao2Evento5 && resposta2 == solucao1Evento5)) {
+                    System.out.println("Conseguimos!");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+        }
+        System.out.println("Quase que imediatamente a sala que antes era totalmente branca sem perspectiva alguma de espaço se tornou pequena e totalmente escura.");
+        System.out.println("Uma luz verde surge literalmente do completo nada e dela uma porta se forma. A última Cápsula, agora era pra valer; a batalha final estava através dessa porta.");
+        System.out.println("Não paramos pra pensar nem por um segundo, pois a batalha final ainda estava acontecendo. Ao abrir a porta, um 'X' de mais ou menos 1 metro de altura a ultrapassa.");
+        System.out.println("Vocês correm para dentro dela e percebem o caos que é esta sala, números e letras descontrolados de um lado para o outro, a influência o Tetraedron sobre eles.");
+        System.out.println("Realmente dava para se imaginar o porque daquele artefato ser tão perigoso. Você e seus aliados entraram na sala ao mesmo tempo que o grupo de Dissidentes, ou seja, a batalha está equilibrada.");
+        System.out.println("Agora é a hora de torná-la desequilibrada. Dessa vez, não só os Matiarcs, como " + nomePersonagem + ", também buscam encontrar a equação que dará a vitória e consequentemente o Tetraedron.");
+        System.out.println("A batalha é feroz, mas a lógica e o raciocínio são suas maiores armas. À medida que o confronto se desenrola, vocês percebem que a única maneira de vencer os dissidentes é usar");
+        System.out.println("sua compreensão avançada da matemática e da lógica para desativar o dispositivo que está causando toda essa bagunça dentro da sala, dispositivo esse que planejavam usar para seus objetivos nefastos.");
+        System.out.println("Matiarcs: Não estamos conseguindo encontrar a equação o números não param nao há um padrão.");
+        System.out.println("1 - " + nomePersonagem + ": Verdade tambem nao consegui encontrar um padrão, nao sei o que podemos fazer.");
+        System.out.println(" 2 - " + nomePersonagem + ": Calma vamos conseguir algo deve estar passando batido.");
+        System.out.println("3 - " + nomePersonagem + ": Realmente nem espaço para fazer uma grainha estou conseguindo achar.");
+        int escolha3;
+        do {
+            System.out.println("O que você fará nesse momento?");
+            escolha3 = scanner.nextInt();
+            if (escolha3 < 1 || escolha3 > 3) {
+                System.out.println("Receio ue nao haja essa escolha. Tente novamente:");
+            }
+        } while (escolha3 < 1 || escolha3 > 3);
+        if (escolha3 == 1 || escolha3 == 2) {
+            System.out.println("Tudo bem, então o que faremos agora?");
+        } else if (escolha3 == 3) {
+            System.out.println("Surprendente terraqueo é você pensar na possibilidade de fazer uma piada.");
+        }
+        System.out.println("Parando um pouco e acalmando sua mente uma ideia surge!");
+        System.out.println(nomePersonagem + ": Pessoal, o Tetradon está afetando toda a lógica do local, isso deve ser o que está impedindo que consigamos organizar a equação. Então, sugiro que façamos algo irracional.");
+        System.out.println(nomePersonagem + ": FECHEM OS OLHOS!");
+        System.out.println("Matiarcs: Mas precisamos enxergar os componentes para formar a equação, " + nomePersonagem + ", abra o olho! " + nomePersonagem + " AAAA tudo bem, façamos o que sugeriu.");
+        System.out.println("Com relutância, todos fecham os olhos, e o improvável acontece: cada um dos Matiarcs está vendo um termo na sua mente, ou seja, uma parte da equação. O que faz todo sentido em um ambiente ");
+        System.out.println("em que a lógica não está sendo aplicada, um ambiente irracional só fazendo algo racional para o irracional.");
+        System.out.println("Vocês organizam os termos e está lá a última equação! " + eventoAleatorioEscolhido3 + ". Sem nem ao menos verificar se estão à frente dos Dissidentes, você parte para a resolução.");
+        System.out.println("Após fechar os olhos novamente, você imagina os espaços para anotar sua resposta.");
+        System.out.print("x' = ");
+        double resposta3 = scanner.nextDouble();
+        System.out.print("x'' = ");
+        double resposta4 = scanner.nextDouble();
+        switch (eventoAleatorioEscolhido3) {
+            case "x2 - 5x - 14 = 0":
+                double solucao1Evento1 = -2;
+                double solucao2Evento1 = 7;
+                if ((resposta3 == solucao1Evento1 && resposta4 == solucao2Evento1) || (resposta3 == solucao2Evento1 && resposta4 == solucao1Evento1)) {
+                    System.out.println("A sala antes conturbada e baralhuenta se transformara em um silencio ensurdeedor.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 - 12x + 20 = 0":
+                double solucao1Evento2 = 10;
+                double solucao2Evento2 = 2;
+                if ((resposta3 == solucao1Evento2 && resposta4 == solucao2Evento2) || (resposta3 == solucao2Evento2 && resposta4 == solucao1Evento2)) {
+                    System.out.println("A sala antes conturbada e baralhuenta se transformara em um silencio ensurdeedor.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 + 9x + 20 = 0":
+                double solucao1Evento3 = -5;
+                double solucao2Evento3 = -4;
+                if ((resposta3 == solucao1Evento3 && resposta4 == solucao2Evento3) || (resposta3 == solucao2Evento3 && resposta4 == solucao1Evento3)) {
+                    System.out.println("A sala antes conturbada e baralhuenta se transformara em um silencio ensurdeedor.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "-x^2 + 3x = 0":
+                double solucao1Evento4 = 3;
+                double solucao2Evento4 = 0;
+                if ((resposta3 == solucao1Evento4 && resposta4 == solucao2Evento4) || (resposta3 == solucao2Evento4 && resposta4 == solucao1Evento4)) {
+                    System.out.println("A sala antes conturbada e baralhuenta se transformara em um silencio ensurdeedor.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+            case "x^2 - 3x = 2x":
+                double solucao1Evento5 = 5;
+                double solucao2Evento5 = 0;
+                if ((resposta3 == solucao1Evento5 && resposta4 == solucao2Evento5) || (resposta3 == solucao2Evento5 && resposta4 == solucao1Evento5)) {
+                    System.out.println("A sala antes conturbada e baralhuenta se transformara em um silencio ensurdeedor.");
+                } else {
+                    System.out.println("Sua aventura Termina aqui.");
+                    gameOver();
+                }
+                break;
+        }
+        System.out.println("O Tetraedon misteriosamente aparece em suas mãos, obrigando o grupo dissidente a se curvar em rendição.");
+        System.out.println("Vocês conseguem derrotar a facção dissidente e impedir a conspiração. No entanto, o custo foi alto, e Matematria agora precisa se recuperar dos danos causados pela traição interna.");
+        System.out.println("Ao desativar o dispositivo, vocês também descobrem que esses aparelhos têm o poder de abrir um portal dimensional que pode levar você de volta à Terra.");
+        System.out.println("A luta pela verdade e pela justiça em Matematria chegou ao fim, mas você deve tomar uma decisão crucial.");
+        System.out.println("Agora, você enfrenta a escolha de voltar para casa, deixando para trás seus aliados Matiarcs e a responsabilidade de ajudar a reconstruir Matematria, ou");
+        System.out.println("ficar com seus amigos Matiarcs, compartilhando seu conhecimento e habilidades únicas, enquanto continua explorando os mistérios do planeta.");
+        System.out.println("A decisão não é fácil, mas o que quer que escolha, sua jornada em Matematria teve um impacto profundo em ambos os mundos.");
+        System.out.println("A Terra e Matematria estão ligadas por uma compreensão matemática compartilhada, e sua história viverá para sempre como um exemplo de como a matemática e a lógica podem unir e salvar mundos.");
         System.out.println("Escolha o destino do personagem: ");
         System.out.println("1. Voltar para a Terra");
         System.out.println("2. Ficar em Matematria");
@@ -473,9 +871,53 @@ public class Matematria {
 
         if (escolhaFinal == 1) {
             System.out.println("Você decide voltar para casa, deixando Matematria.");
-            // Adicione mais descrições e diálogos para o final "Voltando para a Terra" aqui
+            System.out.println("Ao retornar à Terra, o terráqueo herói foi recebido com celebrações e reconhecimento mundial por sua incrível jornada além do nosso planeta. Seus feitos corajosos em salvar o planeta alienígena tornaram-se lendários,");
+            System.out.println("e ele foi saudado como um símbolo de esperança e cooperação intergaláctica.");
+            System.out.println("                                                     \n"
+                    + "                            ::mmmmmmmmmmmmmmmmmmmmmm::                          \n"
+                    + "                        mmmmmmmmmmmmmmmmmmmmmm::::::..mmmm                      \n"
+                    + "                    mmmmmm::::::::::::::mmmm::::::::::mm::++mm                  \n"
+                    + "                mmmmmm::::::::::::::::::mmmm  ::::::::::::mmmmmmmm              \n"
+                    + "              mmmmmm::::::::::::::::::::::mm  ::::::::::::::::::  mm            \n"
+                    + "            mmmm::::::::::::::::::::::::::mmmmmmmm::::mmmm::mmmm::mmmm          \n"
+                    + "          mmmm::::::::::::::::::::::::::::::::mmmmmm::mmmmmmmmmm::mm::mm        \n"
+                    + "        mmmm::::::::::::::::::::::::::::::::mmmmmm..::mmmmmmmm::::mm::::mm      \n"
+                    + "      mmmmmm::::::::::::::::::::::::::::::::mmmmmm::::mmmmmmmm::::mm++::mm      \n"
+                    + "      mmmm::::::::::::::::::::::::::::::::mm++  ::::mmmmmmmmmm::::  mmmm..mm    \n"
+                    + "    mmmm::::::::::::::::::::::::::::::::mmmmmmmm::::mmmmmmmmmmmm::::::::::mm    \n"
+                    + "    mmmmmmmm::::::::::::::::::::::::::::mmmm  mm::mmmmmmmmmmmmmmmmmmmm::::::mm  \n"
+                    + "  mmmmmmmmmm::::::::::::::::::::::::::::::mmmm::::mmmmmmmmmmmmmmmmmmmmmm::::mm  \n"
+                    + "  mm::++mmmm::::::::::::::::::::::::::::::mmmm::::mmmmmmmmmmmmmmmmmmmm..::::::mm\n"
+                    + "  mm::::mmmm::::::::::::::::::::::::::++mmmmmm::::::::mmmmmmmmmmmmmm::::mm++mmmm\n"
+                    + "    ::::mmmm::::::::::::::::::::::::mmmm::mmmmmmmm::::mmmmmmmmmmmmmm::mmmm::::mm\n"
+                    + "  mmmm::mmmmmmmm::::::::::::::::::mm::mm::  mm::::mm::::mmmmmmmmmm::::  mm::::::\n"
+                    + "  mmmm::mmmmmmmm::::::::::::::mmmmmm::::::::  mmmmmm::::mmmmmmmm--::::  mm::::::\n"
+                    + "mmmmmm::::::mmmm::::::::::::::mmmm::::mmmmmm::::mm--::::mmmmmmmm..::::mmmm::::::\n"
+                    + "mmmmmmmmmm::mmmmmmmmmmmmmm::::mm..::::mmmmmmmm::::::::::::::::++::::::mm::::::::\n"
+                    + "++::mmmmmm::::mmmmmmmmmmmmmmmmmmmm::::mmmmmmmmmmmm::::::::::::::::::  mm::::::::\n"
+                    + "  ::mmmmmmmm::::  mmmm----mmmmmmmmmm::mmmmmmmmmmmmmm::::::::::::::::::mmmm::::::\n"
+                    + "    ::mmmmmmmm::::  mmmm::::mmmmmmmm::mmmm::::mmmmmm::::::::::::::::::mmmmmm::mm\n"
+                    + "  mm::::::mmmmmm::::mmmmmm::::mmmmmm::::::::::::::::::::::::::::::::::::  mmmmmm\n"
+                    + "  mm::::mmmmmmmmmm::::::::::::mmmm++mmmmmmmmmmmm::::::::::::::::::::::mm::  mmmm\n"
+                    + "    ::::++mmmmmmmmmmmmmm::::::mmmmmmmmmmmmmmmmmmmm::::::::::::::::::::mmmm::mm  \n"
+                    + "    mm::::mmmmmmmmmmmmmm::::++mm::::::::::::::mmmmmm::::::::::::::::::::::::mm  \n"
+                    + "    mm::::mmmmmmmmmmmm::::mmmmmm::::::::::::::::mmmmmm::::::mmmmmm::::::::::mm  \n"
+                    + "      mm::::mmmmmmmmmm::mmmmmm::::::::::::::::::::mmmmmm::mmmmmmmmmm::::::mm    \n"
+                    + "        --::::mmmmmm--::::++mm::::::::::::::::::::++mmmm::mmmmmmmmmm::::::++    \n"
+                    + "        mm::::::mmmm..::mmmm::::::::::::::::::::::::mmmm::::mmmmmmmm::::mm      \n"
+                    + "          mm::::::mm::::mm::::::::::::::::::::::::mmmmmm::::mmmmmmmm::mm        \n"
+                    + "            mm::::::::::mmmm::::::::::::::::::::::mmmm::::mmmmmm::::mm          \n"
+                    + "              mm::::::::mmmmmm::::::::::::::::::mmmmmm::::mmmm::::mm            \n"
+                    + "                mm--::::::mmmmmmmm::::::::::::mmmmmm::::mmmm::mmmm              \n"
+                    + "                  mmmm::::::mmmmmmmm::::::::::mmmm::::::::..mm                  \n"
+                    + "                      mmmm..::..++++mm::::::::mmmm::::--mmmm                    \n"
+                    + "                            mmmm++mmmmmmmmmmmmmmmmmmmm..            ");
+            // Adicione mais descrições e diálogos para o final "Voltando para a Terra" 
         } else if (escolhaFinal == 2) {
             System.out.println("Você decide ficar em Matematria com seus aliados Matiarcs.");
+            System.out.println("No momento em que o terráqueo, herói entre os descobertos, imaginou o dilema de retornar à Terra ou permanecer no planeta que havia ajudado a salvar, ele ");
+            System.out.println("sobre a profunda conexão que havia sido desenvolvida com aquele mundo distante. Inspirado pela gratidão dos habitantes conhecidos e pelos laços de amizade");
+            System.out.println("forjados durante o tempo, decidiu ficar no planeta, e ajudar na reconstrução do mesmo.");
             // Adicione mais descrições e diálogos para o final "Ficar em Matematria" aqui
         }
 
